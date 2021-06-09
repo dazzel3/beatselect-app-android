@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/text_1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_type1"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFFFFF"
+            android:text="감성 / 트렌디 / 팝"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/orange" />
+
+        <Button
+            android:id="@+id/btn_type2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFFFFF"
+            android:text="하드 / 어두움 / 힙합"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/orange" />
+
+        <Button
+            android:id="@+id/btn_type3"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#FFFFFF"
+            android:text="밝음 / 신남 / 싱잉"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/orange" />
+    </LinearLayout>
+
+</LinearLayout>
